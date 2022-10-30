@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
-
-
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
@@ -109,10 +106,4 @@ for provincia in ['MADRID']: # Considering only MADRID
 
 
         driver.quit() # Close windows
-
-
-# In[ ]:
-
-
-
 
